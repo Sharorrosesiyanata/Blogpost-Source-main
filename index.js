@@ -3,8 +3,8 @@ const expressSession = require('express-session');
 const flash = require('connect-flash');
 const mongoose = require('mongoose')//page 53 - Connecting to MongoDB from Node
 
-//connect to Atlas cloud MongoDB
-mongoose.connect('mongodb+srv://JadaMathele:kPfIAdYSqOfix3ap@cluster0.rm0hggx.mongodb.net/my_database', { useNewUrlParser: true });
+//connect to Atlas cloud MongoDB 
+mongoose.connect('mongodb+srv://sharonrosesiyanata7:VICEgDztKhvISLKu@cleanblogpost.q79mm.mongodb.net/blog_db', { useNewUrlParser: true });
 
 const app = new express()
 const ejs = require('ejs')
